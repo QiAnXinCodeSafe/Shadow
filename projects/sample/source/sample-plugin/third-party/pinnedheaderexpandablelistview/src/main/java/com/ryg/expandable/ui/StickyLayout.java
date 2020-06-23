@@ -69,9 +69,6 @@ public class StickyLayout extends LinearLayout {
     private int mLastXIntercept = 0;
     private int mLastYIntercept = 0;
 
-    // 用来控制滑动角度，仅当角度a满足如下条件才进行滑动：tan a = deltaX / deltaY > 2
-    private static final int TAN = 2;
-
     private boolean mIsSticky = true;
     private boolean mInitDataSucceed = false;
     private boolean mDisallowInterceptTouchEventOnHeader = true;
